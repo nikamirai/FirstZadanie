@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wild_animals"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="500">
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="450"/>
         </Grid.ColumnDefinitions>
-        <TextBlock Text="Слан" FontSize="25" FontWeight="Bold" Margin="10 10 0 0"></TextBlock>
-        <TextBlock></TextBlock>
+        <TextBlock Text="Слон" FontSize="25" FontWeight="Bold" Margin="10 10 0 0"></TextBlock>
+        <TextBlock Margin="10 80 0 0" Text="Семейство класса млекопитающих из отряда хоботных. В настоящее время к этому семейству относятся 3 ныне живущих вида. Африканские саванные слоны - наиболее крупные наземные млекопитающие." FontSize="25" TextWrapping="Wrap"></TextBlock>
+        <Image Grid.Column="1" Source="Pictures/Elephant.jpg" Stretch="Fill"></Image>
     </Grid>
 </Window>
