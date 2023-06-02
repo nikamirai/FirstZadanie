@@ -1,0 +1,19 @@
+﻿<Window x:Class="wild_animals.Tiger"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wild_animals"
+        mc:Ignorable="d"
+        Title="Tiger" Height="450" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBlock FontWeight="Bold" Margin="20 20 0 0" FontSize="25" Text="Тигр"></TextBlock>
+        <TextBlock/>
+        <TextBlock Margin="20 80 0 0" Text="Хищное млекопитающее семейства кошачьих, один из пяти видов рода пантер, принадлежащего к подсемейству больших кошек. Слово «тигр» происходит от τίγρις, которое в свою очередь восходит к *tigri от корня «*taig» со значением «острый; быстрый»." FontSize="25" TextWrapping="WrapWithOverflow"></TextBlock>
+        <Image Grid.Column="1" Source="Pictures/Tiger.jpeg" Width="400" Stretch="Fill" Height="400"></Image>
+    </Grid>
+</Window>
